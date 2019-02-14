@@ -5,8 +5,24 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     <link href="~/StyleSheet.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Freckle+Face|Rock+Salt|Schoolbell" rel="stylesheet">
 </head>
 <body>
+
+    <header>
+        <h1>DotNet Grams</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li>
+                    <a href="/Posts/Manage">Create New Post</a>
+                 </li>
+            </ul>
+        </div>
+    </header>
+
+
+
     <div>
         @RenderBody()
     </div>

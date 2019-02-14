@@ -3,6 +3,9 @@
 @{
     ViewData["Title"] = "Manage";
 }
+@{
+    Layout = "_Layout";
+}
 
 <h1>Details of The Post</h1>
 <form method="post">
@@ -16,4 +19,5 @@
 <textarea rows="5" asp-for="Post.Description"></textarea>
 
     <button type="submit">SAVE</button>
+    <button type="submit" asp-page-handler="Delete">DELETE</button>
 </form>

@@ -45,5 +45,10 @@ namespace DotNet_grams.Pages.Posts
         }
 
 
+        public async Task<IActionResult> OnPostDelete()
+        {
+            await _post.DeleleAsync(ID.Value);
+            return RedirectToPage("/Index");
+        }
     }
 }
