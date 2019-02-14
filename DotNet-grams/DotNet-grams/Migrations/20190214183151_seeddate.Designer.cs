@@ -3,14 +3,16 @@ using DotNet_grams.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DotNet_grams.Migrations
 {
     [DbContext(typeof(PostDbContext))]
-    partial class PostDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190214183151_seeddate")]
+    partial class seeddate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,35 +42,35 @@ namespace DotNet_grams.Migrations
                             ID = 1,
                             Description = "beach view",
                             PosterName = "xl",
-                            URL = "https://via.placeholder.com/300?text=DotNetGram"
+                            URL = "beachview.jpg"
                         },
                         new
                         {
                             ID = 2,
                             Description = "beach view",
                             PosterName = "xxl",
-                            URL = "https://via.placeholder.com/300?text=DotNetGram"
+                            URL = "beachview.jpg"
                         },
                         new
                         {
                             ID = 3,
                             Description = "cute kitty",
                             PosterName = "xxxl",
-                            URL = "https://via.placeholder.com/300?text=DotNetGram"
+                            URL = "cute.jpg"
                         },
                         new
                         {
                             ID = 4,
                             Description = "winter time",
                             PosterName = "xxxl",
-                            URL = "https://via.placeholder.com/300?text=DotNetGram"
+                            URL = "wintertime.jpg"
                         },
                         new
                         {
                             ID = 5,
                             Description = "happy hour",
                             PosterName = "xxxl",
-                            URL = "https://via.placeholder.com/300?text=DotNetGram"
+                            URL = "happyhour.jpg"
                         });
                 });
 #pragma warning restore 612, 618

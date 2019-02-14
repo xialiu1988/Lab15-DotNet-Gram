@@ -1,0 +1,20 @@
+﻿@page "{id}"
+@model DotNet_grams.Pages.Posts.IndexModel
+@{
+}
+
+@{
+    Layout = "_Layout";
+}
+
+<div>
+    <label asp-for="Post.Description"></label>
+    <label asp-for="Post.Description">@Model.Post.Description</label>
+</div>
+
+<div>
+    <label asp-for="Post.PosterName"></label>
+    <label asp-for="Post.PosterName">@Model.Post.PosterName</label>
+</div>
+
+<a asp-page="/Posts/Manage" asp-route-id="@Model.Post.ID">Edit Details</a>

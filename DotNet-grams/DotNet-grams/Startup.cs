@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DotNet_grams.Data;
+using DotNet_grams.Models.Interfaces;
+using DotNet_grams.Models.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -28,6 +30,8 @@ namespace DotNet_grams
             services.AddMvc();
             services.AddDbContext<PostDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<IPost, PostManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

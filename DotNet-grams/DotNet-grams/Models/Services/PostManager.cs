@@ -44,17 +44,15 @@ namespace DotNet_grams.Models.Services
         {
             //create new post or update one
             //if it does not exsit in DB CREATE ONE 
-            Post res = await _context.Posts.FirstOrDefaultAsync(p => p.ID == post.ID);
-
-            if (res == null)
+        if( await _context.Posts.FirstOrDefaultAsync(p => p.ID == post.ID)==null)
             {
                 _context.Posts.Add(post);
-
             }
+           
             else
             {  //update it if it exsits
-                res = post;
-                _context.Posts.Update(res);
+                    
+                _context.Posts.Update(post);
             }
             await _context.SaveChangesAsync();
             
