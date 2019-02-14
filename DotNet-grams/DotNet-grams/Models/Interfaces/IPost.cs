@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DotNet_grams.Models.Interfaces
 {
-    interface IPost
+  public  interface IPost
     {
 
         //Find

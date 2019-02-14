@@ -1,3 +1,19 @@
 ﻿@page
+@using DotNet_grams.Models.Interfaces
+
+@inject IPost postservice
 
 
+@{ 
+    var posts = await postservice.GetPosts();
+}
+
+@foreach(var p in posts)
+{
+
+    <h3>@p.PosterName</h3>
+    <p>@p.Description</p>
+    <a asp-page="/Posts/Index" asp-route-id="@p.ID">
+        <img src="@p.URL" alt="post image" />
+    </a>
+}
