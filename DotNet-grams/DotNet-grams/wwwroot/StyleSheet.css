@@ -12,6 +12,7 @@ h1 {
 }
 
     .nav ul {
+        background-color:lightgrey;
         list-style: none;
         display: inline-block;
         text-align: center;
@@ -21,8 +22,7 @@ h1 {
 
 
     .nav li {
-        color: #fff;
-        background-color: coral;
+        color: #000;
         display: block;
         float: left;
         padding: 1rem;
