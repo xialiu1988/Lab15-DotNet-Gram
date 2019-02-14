@@ -22,7 +22,7 @@ namespace DotNet_grams.Data
                 { ID = 1,
                     Description = "beach view",
                     PosterName = "xl",
-                    URL = "beachview.jpg"
+                    URL = "https://via.placeholder.com/300?text=DotNetGram"
 
                 },
                 new Post
@@ -30,7 +30,7 @@ namespace DotNet_grams.Data
                     ID = 2,
                     Description = "beach view",
                     PosterName = "xxl",
-                    URL = "beachview.jpg"
+                    URL = "https://via.placeholder.com/300?text=DotNetGram"
 
                 },
                 new Post
@@ -38,21 +38,21 @@ namespace DotNet_grams.Data
                     ID=3,
                     Description = "cute kitty",
                     PosterName = "xxxl",
-                    URL = "cute.jpg"
+                    URL = "https://via.placeholder.com/300?text=DotNetGram"
                 },
                 new Post
                 {
                     ID=4,
                     Description="winter time",
                     PosterName="xxxl",
-                    URL="wintertime.jpg"
+                    URL = "https://via.placeholder.com/300?text=DotNetGram"
                 },
                 new Post
                 {
                     ID = 5,
                     Description = "happy hour",
                     PosterName = "xxxl",
-                    URL = "happyhour.jpg"
+                    URL = "https://via.placeholder.com/300?text=DotNetGram"
 
                 }
 
