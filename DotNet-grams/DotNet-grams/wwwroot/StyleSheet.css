@@ -8,7 +8,9 @@ h1 {
 }
 
 .nav {
-    text-align: center;
+    position:fixed;
+    top: 0;
+    right:0;
 }
 
     .nav ul {
@@ -24,9 +26,21 @@ h1 {
     .nav li {
         color: #000;
         display: block;
-        float: left;
-        padding: 1rem;
+        padding: 0.3rem;
         position: relative;
         text-decoration: none;
         transition-duration: 0.5s;
     }
+.parent {
+    display: table;
+margin-left:auto;
+margin-right:auto;
+}
+.container {
+    margin-bottom:2em;
+    border: 1px solid black;
+    margin: 10px;
+    float:left;
+    text-align:center;
+    display: inline-block;
+}

@@ -40,35 +40,35 @@ namespace DotNet_grams.Migrations
                             ID = 1,
                             Description = "beach view",
                             PosterName = "xl",
-                            URL = "https://via.placeholder.com/300?text=DotNetGram"
+                            URL = "https://via.placeholder.com/200?text=DotNetGram"
                         },
                         new
                         {
                             ID = 2,
                             Description = "beach view",
                             PosterName = "xxl",
-                            URL = "https://via.placeholder.com/300?text=DotNetGram"
+                            URL = "https://via.placeholder.com/200?text=DotNetGram"
                         },
                         new
                         {
                             ID = 3,
                             Description = "cute kitty",
                             PosterName = "xxxl",
-                            URL = "https://via.placeholder.com/300?text=DotNetGram"
+                            URL = "https://via.placeholder.com/200?text=DotNetGram"
                         },
                         new
                         {
                             ID = 4,
                             Description = "winter time",
                             PosterName = "xxxl",
-                            URL = "https://via.placeholder.com/300?text=DotNetGram"
+                            URL = "https://via.placeholder.com/200?text=DotNetGram"
                         },
                         new
                         {
                             ID = 5,
                             Description = "happy hour",
                             PosterName = "xxxl",
-                            URL = "https://via.placeholder.com/300?text=DotNetGram"
+                            URL = "https://via.placeholder.com/200?text=DotNetGram"
                         });
                 });
 #pragma warning restore 612, 618
