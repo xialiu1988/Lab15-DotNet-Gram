@@ -36,32 +36,31 @@ h1 {
     display: table;
 margin-left:auto;
 margin-right:auto;
+margin-top:1em;
 }
 .container {
-    margin-bottom:2em;
+    display: table-cell;
+    margin-bottom: 2em;
     border: 1px solid black;
-    margin: 10px;
-    float:left;
-    text-align:center;
+    margin: 1em;
+    padding: 1em;
+    text-align: left;
     display: inline-block;
 }
 
 form {
-    display: inline-block;
+    display: block;
     padding: 1em 1em 1em 1em;
 }
-label {
-    display:block;
-    margin-bottom: 5px;
-    vertical-align: top;
-}
-.formcontainer {
-    width:200px;
-    height:300px;
-    border: 2px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    display: block;
 
+
+/*.des {
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
+}*/
+img{
+
+   width: 20vw;
+   height:30vh;
 }
