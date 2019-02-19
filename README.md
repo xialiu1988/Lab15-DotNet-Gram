@@ -12,3 +12,20 @@ Homepage: show all the posts with the name of Poster and image and its descripti
 
 
 ![home](Assets/home.png)
+
+
+When click on view details you will see the detail of that post
+
+
+![detail](Assets/detail.png)
+
+
+When you click on the create new at the right corner , you will get an empty form to fill out the details about the new post.
+
+
+![create](Assets/create.png)
+
+
+You can also edit / delete the post
+
+![edit](Assets/edit.png)
