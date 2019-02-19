@@ -29,3 +29,20 @@ When you click on the create new at the right corner , you will get an empty for
 You can also edit / delete the post
 
 ![edit](Assets/edit.png)
+
+
+
+
+
+
+
+#Schema
+
+![sc](Assets/sc.png)
+
+
+
+#Technologies used
+
+Azure Blob Storage, Asp.Net Core,Razor pages,SQL server
+Mainly use C#
